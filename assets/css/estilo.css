@@ -1,12 +1,14 @@
-#import url("") {
+@import url(cabecalho.css);
+@import url("cartao.css");
+  
+html {
+  /* border: .1rem solid blue; */}
+  
+* {
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 16px;
   margin: 0;
   padding: 0;
-}
-
-html {
-  /* border: .1rem solid blue; */
 }
 
 body {
@@ -42,7 +44,7 @@ nav {
 }
 
 main {
-  border: 0.1rem solid purple;
+  /* border: 0.1rem solid purple; */
   display: flex;
   flex: 1;
   padding: .5rem;
